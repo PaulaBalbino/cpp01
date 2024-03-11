@@ -6,7 +6,7 @@
 /*   By: pbalbino <pbalbino@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/09 14:28:32 by pbalbino          #+#    #+#             */
-/*   Updated: 2024/03/11 17:45:40 by pbalbino         ###   ########.fr       */
+/*   Updated: 2024/03/11 18:06:16 by pbalbino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ void Zombie::announce(void)
 {
 	std::cout << this->name << ": BraiiiiiiinnnzzzZ... " << std::endl;
 }
-
 
 Zombie::~Zombie()
 {
