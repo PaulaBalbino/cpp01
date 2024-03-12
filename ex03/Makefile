@@ -5,12 +5,12 @@
 #                                                     +:+ +:+         +:+      #
 #    By: pbalbino <pbalbino@student.42abudhabi.a    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/03/12 11:28:57 by pbalbino          #+#    #+#              #
-#    Updated: 2024/03/12 20:05:06 by pbalbino         ###   ########.fr        #
+#    Created: 2024/03/12 12:50:10 by pbalbino          #+#    #+#              #
+#    Updated: 2024/03/12 13:28:14 by pbalbino         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= hibrain
+NAME	= violence
 
 CXX		= c++
 
@@ -18,7 +18,10 @@ CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
 
 OBJPATH = ./obj/
 
-SRC =	main.cpp
+SRC =	main.cpp \
+		HumanA.cpp \
+		HumanB.cpp \
+		Weapon.cpp
 
 OBJ = $(addprefix $(OBJPATH), $(SRC:.cpp=.o))
 

@@ -5,12 +5,12 @@
 #                                                     +:+ +:+         +:+      #
 #    By: pbalbino <pbalbino@student.42abudhabi.a    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/03/12 11:28:57 by pbalbino          #+#    #+#              #
-#    Updated: 2024/03/12 20:05:06 by pbalbino         ###   ########.fr        #
+#    Created: 2024/03/12 15:38:50 by pbalbino          #+#    #+#              #
+#    Updated: 2024/03/12 15:39:17 by pbalbino         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= hibrain
+NAME	= sed
 
 CXX		= c++
 
@@ -18,7 +18,8 @@ CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
 
 OBJPATH = ./obj/
 
-SRC =	main.cpp
+SRC =	main.cpp \
+		
 
 OBJ = $(addprefix $(OBJPATH), $(SRC:.cpp=.o))
 
