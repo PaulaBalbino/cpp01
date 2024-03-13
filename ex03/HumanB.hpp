@@ -6,7 +6,7 @@
 /*   By: pbalbino <pbalbino@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 12:50:05 by pbalbino          #+#    #+#             */
-/*   Updated: 2024/03/12 21:11:09 by pbalbino         ###   ########.fr       */
+/*   Updated: 2024/03/13 20:33:11 by pbalbino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ class HumanB {
 		HumanB(std::string name) : instance(NULL), name(name) {};
 		void attack();
 		void setWeapon(Weapon &newWeapon);
-
 };
 
 
