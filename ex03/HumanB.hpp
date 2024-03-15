@@ -6,11 +6,14 @@
 /*   By: pbalbino <pbalbino@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 12:50:05 by pbalbino          #+#    #+#             */
-/*   Updated: 2024/03/13 20:33:11 by pbalbino         ###   ########.fr       */
+/*   Updated: 2024/03/15 17:00:16 by pbalbino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Weapon.hpp"
+
+#ifndef HUMANB_HPP
+#define HUMANB_HPP
 
 class HumanB {
 	private:
@@ -22,7 +25,7 @@ class HumanB {
 		void setWeapon(Weapon &newWeapon);
 };
 
-
+#endif
 
 /*
 

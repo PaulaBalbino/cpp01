@@ -6,11 +6,14 @@
 /*   By: pbalbino <pbalbino@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 12:50:01 by pbalbino          #+#    #+#             */
-/*   Updated: 2024/03/12 21:11:00 by pbalbino         ###   ########.fr       */
+/*   Updated: 2024/03/15 17:00:06 by pbalbino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Weapon.hpp"
+
+#ifndef HUMANA_HPP
+#define HUMANA_HPP
 
 class HumanA
 {
@@ -20,9 +23,10 @@ class HumanA
 	public:
 		HumanA(std::string name, Weapon &instance) : instance(instance), name(name) {};
 		void attack();
-		
+
 };
 
+#endif
 
 /*
 
