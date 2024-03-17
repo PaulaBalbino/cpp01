@@ -6,7 +6,7 @@
 /*   By: pbalbino <pbalbino@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/11 18:02:35 by pbalbino          #+#    #+#             */
-/*   Updated: 2024/03/11 18:48:05 by pbalbino         ###   ########.fr       */
+/*   Updated: 2024/03/17 21:22:51 by pbalbino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,5 @@ int main()
 
 	delete [] array;
 
-	return 0;
+	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: pbalbino <pbalbino@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 12:50:05 by pbalbino          #+#    #+#             */
-/*   Updated: 2024/03/15 17:00:16 by pbalbino         ###   ########.fr       */
+/*   Updated: 2024/03/17 21:33:39 by pbalbino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,8 @@ class HumanB {
 #endif
 
 /*
+inicialmente a arma eh setada para null e HumanB pode nao ter uma arma
+> melhor usar pointer
 
 HumanA and HumanB are almost the same except for these two tiny details:
 • While HumanA takes the Weapon in its constructor, HumanB doesn’t.

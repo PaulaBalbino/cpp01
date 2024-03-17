@@ -6,11 +6,11 @@
 #    By: pbalbino <pbalbino@student.42abudhabi.a    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/12 11:28:57 by pbalbino          #+#    #+#              #
-#    Updated: 2024/03/12 20:05:06 by pbalbino         ###   ########.fr        #
+#    Updated: 2024/03/17 21:27:16 by pbalbino         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= hibrain
+NAME	= brain
 
 CXX		= c++
 

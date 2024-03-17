@@ -6,7 +6,7 @@
 /*   By: pbalbino <pbalbino@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 11:28:55 by pbalbino          #+#    #+#             */
-/*   Updated: 2024/03/12 20:04:22 by pbalbino         ###   ########.fr       */
+/*   Updated: 2024/03/17 21:29:29 by pbalbino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,5 +37,4 @@ int main()
 	std::string str = "HI THIS IS BRAIN"; // Create a string object
 	std::string *strPtr = &str; // Create a pointer to a string and assign the address of the string object to it
 	std::string &strRef = str;  // Create a reference to the string object
-
 */

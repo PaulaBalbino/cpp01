@@ -6,7 +6,7 @@
 /*   By: pbalbino <pbalbino@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/09 14:28:30 by pbalbino          #+#    #+#             */
-/*   Updated: 2024/03/11 17:50:04 by pbalbino         ###   ########.fr       */
+/*   Updated: 2024/03/17 21:20:34 by pbalbino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,6 @@ void randomChump(std::string name)
 
 
 /*
-
-void randomChump( std::string name );
-It creates a zombie, name it, and the zombie announces itself.
-
+neste caso o zombie eh criado aqui, se anuncia e quando termina
+o escopo ele eh deletado (automatico), "uso unico". 
 */
